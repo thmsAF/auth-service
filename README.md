@@ -2,7 +2,7 @@
 
 Este projeto faz parte de um projeto academico .É um microserviço de autenticação desenvolvido com Spring Boot. Ele utiliza JWT (JSON Web Token) para autenticação e está pronto para ser executado com Docker Compose.
 ##Observação 
-O projeto é um microserviço de uma api maior , ao subir o container não tera a base de dados 
+A base de dados necessita do serviço principal  
 
 ## ⚙️ Tecnologias Utilizadas
 
