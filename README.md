@@ -24,7 +24,7 @@ A base de dados necessita do serviço principal
 
 ```bash
 docker-compose up --build
-
+```
 A aplicação estará acessível em:
 
 http://localhost:8080 – Serviço de autenticação e cadastro
@@ -48,19 +48,19 @@ Authorization: Bearer {token}
 🔐 Microsserviço de Login (auth-service - porta 8080)
 POST /api/usuarios – Criar novo usuário
 json
-Copiar
-Editar
+```
 {
   "nome": "teste",
   "email": "teste@gmail.com",
   "senha": "123456"
 }
+```
 POST /api/login – Autenticar usuário
 json
-Copiar
-Editar
+```
 {
-  "email": "microserviço@gmail.com",
+  "email": "teste@gmail@gmail.com",
   "senha": "123456"
 }
+```
 Retorna um token JWT com validade de 24h.
