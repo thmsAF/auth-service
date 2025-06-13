@@ -50,17 +50,17 @@ POST /api/usuarios – Criar novo usuário
 json
 ```
 {
-  "nome": "teste",
-  "email": "teste@gmail.com",
-  "senha": "123456"
+  "nome": "string",
+  "email": "string",
+  "senha": "string"
 }
 ```
 POST /api/login – Autenticar usuário
 json
 ```
 {
-  "email": "teste@gmail@gmail.com",
-  "senha": "123456"
+  "email": "string",
+  "senha": "string"
 }
 ```
 Retorna um token JWT com validade de 24h.
